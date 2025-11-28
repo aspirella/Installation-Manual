@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Executive Chair – Installation Manual</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+<style>
+
+    body {
+      font-family: 'Avenir LT Pro';
+      background: #f6f6fb;
+      margin: 0;
+      padding: 16px 0;
+      color: #222;
+    }
+    .page {
+      max-width: 680px;
+      margin: 0 auto 24px auto;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 32px rgba(36,54,86,0.09);
+      padding: 32px 32px 56px 32px;
+      box-sizing: border-box;
+    }
+    /* Cover page styles */
+    .cover-page {
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .cover-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .cover-logo {
+      height: 48px;
+    }
+    .cover-title-block {
+      text-align: right;
+      margin-left: auto;
+    }
+    .cover-title {
+      font-size: 1.8em;
+      font-weight: 600;
+      margin: 0 0 6px 0;
+    }
+    .cover-models {
+      font-size: 0.96em;
+      line-height: 1.4;
+    }
+    .cover-illustration {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    .cover-illustration img {
+      max-height: 420px;
+      max-width: 100%;
+    }
+    .cover-footer {
+      font-size: 0.9em;
+      text-align: center;
+      color: #7c8696;
+      padding-top: 16px;
+      border-top: 1px solid #eee;
+    }
+
+    /* Manual page styles */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 24px;
+      border-bottom: 2px solid #eee;
+    }
+    .branding {
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      height: 56px;
+      margin-right: 18px;
+    }
+    .section {
+      margin-top: 36px;
+      margin-bottom: 32px;
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+    h2, h3 {
+      color: #3a4756;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    .manual-step {
+      background: #f9fafe;
+      margin-bottom: 24px;
+      border-radius: 8px;
+      padding: 18px 18px 18px 20px;
+      box-shadow: 0 2px 12px rgba(240,240,246,0.08);
+      display: none;
+      align-items: center;
+    }
+    .step-gif {
+      max-width: 300px;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px #ddd;
+      margin-right: 20px;
+    }
+    .step-desc {
+      font-size: 1.07em;
+      color: #2e3640;
+      margin-bottom: 8px;
+    }
+    .footer {
+      margin-top: 52px;
+      padding: 18px 0 16px 0;
+      border-top: 2px solid #eee;
+      font-size: 1em;
+      text-align: center;
+      color: #7c8696;
+      background: #fafafc;
+      border-radius: 0 0 16px 16px;
+    }
+    .company-link {
+      color: #4267b2;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    #stepNav {
+      text-align: center;
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+    #stepNav button {
+      background: #E57373;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 18px;
+      margin: 0 8px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    #stepNav button:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+    }
+    #product360 {
+      display: none;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.96em;
+    }
+    thead tr {
+      background: #f2f3f8;
+    }
+    th {
+      border-bottom: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+      font-weight: 600;
+    }
+    td {
+      padding: 6px 8px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    tbody tr:nth-child(even) {
+      background: #fafbff;
+    }
+    @media (max-width: 700px) {
+      .page {padding: 12px 6px 32px 6px;}
+      .manual-step {flex-direction: column;}
+      .step-gif {margin-bottom: 12px; margin-right: 0;}
+      table {font-size: 0.88em;}
+      th, td {padding: 6px 4px;}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PAGE 1: COVER -->
+  <div class="page cover-page">
+    <div class="cover-header">
+      <img src="page cover-logo.png" alt="Aspirella logo" class="cover-logo">
+      <div class="cover-title-block">
+        <div class="cover-title">Executive Chair</div>
+        <div class="cover-models"></div>
+      </div>
+    </div>
+
+    <div class="cover-illustration">
+      <img src="executive-chair-cover.png" alt="Executive office chair technical line drawing">
+    </div>
+
+    <div class="cover-footer">
+      Installation Manual
+    </div>
+  </div>
+
+  <!-- PAGE 2: INTERACTIVE MANUAL -->
+  <div class="page">
+    <!-- HEADER -->
+    <div class="header">
+      <div class="branding">
+        <img src="LOGO.png" alt="Aspirella logo" class="logo">
+
+      </div>
+    </div>
+
+    <!-- BOM -->
+    <div class="section" id="bomSection">
+      <h3>Bill of Materials</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Image</th>
+            <th>Part Name</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>A</td>
+            <td><img src="A-caster.png" alt="Caster Wheel" style="height:60px;display:block;margin:2px auto;"></td>
+            <td>Caster Wheel</td>
+            <td>5x</td>
+          </tr>
+          <tr>
+            <td>B</td>
+            <td><img src="B-base.png" alt="Five-Star Base" style="height:60px;display:block;margin:2px auto;"></td>
+            <td>Five-Star Base</td>
+            <td>1x</td>
+          </tr>
+          <tr>
+            <td>C</td>
+            <td><img src="C-seat.png" alt="Seat Cushion" style="height:60px;display:block;margin:2px auto;"></td>
+            <td>Seat Cushion</td>
+            <td>1x</td>
+          </tr>
+          <tr>
+            <td>D</td>
+            <td><img src="D-armrest.png" alt="Armrests" style="height:60px;display:block;margin:2px auto;"></td>
+            <td>Armrests</td>
+            <td>2x</td>
+          </tr>
+          <tr>
+            <td>E</td>
+            <td><img src="E-backrest.png" alt="Backrest" style="height:60px;display:block;margin:2px auto;"></td>
+            <td>Backrest</td>
+            <td>1x</td>
+          </tr>
+          <tr>
+            <td>F</td>
+            <td><img src="F-gaslift.png" alt="Gas Lift Cylinder" style="height:60px;display:block;margin:2px auto;"></td>
+            <td>Gas Lift Cylinder</td>
+            <td>1x</td>
+          </tr>
+          <tr>
+            <td>G</td>
+            <td><img src="G-screw.png" alt="Screws" style="height:60px;display:block;margin:2px auto;"></td>
+            <td>Screws</td>
+            <td>10x</td>
+          </tr>
+          <tr>
+            <td>H</td>
+            <td><img src="H-mechanism.png" alt="Seat Mechanism" style="height:60px;display:block;margin:2px auto;"></td>
+            <td>Seat Mechanism</td>
+            <td>1x</td>
+          </tr>
+          <tr>
+            <td>I</td>
+            <td><img src="I-allenkey.png" alt="Allen Key" style="height:60px;display:block;margin:2px auto;"></td>
+            <td>Allen Key</td>
+            <td>1x</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- SAFETY (ALWAYS VISIBLE) -->
+    <div class="section" id="safetySection">
+      <h3>Safety Precautions</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Serial No</th>
+            <th>Icon</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><img src="safety-read-manual.png" alt="Read manual" style="height:70px;display:block;margin:2px auto;"></td>
+            <td>Read the complete installation manual before beginning assembly..</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><img src="safety-two-person.png" alt="Two person" style="height:70px;display:block;margin:2px auto;"></td>
+            <td>Perform the assembly with two people to ensure safe handling and prevent injury.</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><img src="safety-no-drill.png" alt="No drill" style="height:70px;display:block;margin:2px auto;"></td>
+            <td>Do not use power tools during assembly; use only hand tools to prevent damage to parts and fasteners.</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><img src="safety-no-mallet.png" alt="No hammer" style="height:70px;display:block;margin:2px auto;"></td>
+            <td>Do not use a hammer or mallet during assembly; never strike any parts with impact tools.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+<h2>Installation Instructions</h2>
+    <!-- STEPS -->
+    <div id="stepsContainer">
+      <div class="manual-step">
+        <img src="STEP-1.gif" class="step-gif" alt="Step 1">
+        <div class="step-desc">Insert each caster wheel into the base leg socket until you hear it click into place.</div>
+      </div>
+      <div class="manual-step">
+        <img src="STEP-2.gif" class="step-gif" alt="Step 2">
+        <div class="step-desc">Slide the seat mechanism into the underside of the seat cushion until it is fully seated and locked in position.</div>
+      </div>
+      <div class="manual-step">
+        <img src="STEP-3.gif" class="step-gif" alt="Step 3">
+        <div class="step-desc">Install the backrest on the unit and secure it with four screws until the backrest is tight.</div>
+      </div>
+      <div class="manual-step">
+        <img src="STEP-4.gif" class="step-gif" alt="Step 4">
+        <div class="step-desc">Install the armrests on the unit and secure it with four screws until the armrests is tight.</div>
+      </div>
+      <div class="manual-step">
+        <img src="STEP-5.gif" class="step-gif" alt="Step 5">
+        <div class="step-desc">Install the gas lift cylinder into the center hole of the chair base.</div>
+      </div>
+      <div class="manual-step">
+        <img src="STEP-6.gif" class="step-gif" alt="Step 6">
+        <div class="step-desc">Install the seat assembly onto the gas cylinder and make sure it is fully seated on the top of the cylinder.</div>
+      </div>
+    </div>
+
+    <!-- NAV BUTTONS (fixed under step area) -->
+    <div id="stepNav">
+      <button id="prevBtn" onclick="changeSection(-1)" disabled>Previous</button>
+      <button id="nextBtn" onclick="changeSection(1)">Next</button>
+    </div>
+
+    <!-- 360 VIEW -->
+    <div class="section" id="product360">
+      <h2>360° Product Animation</h2>
+      <img src="360-DEGREES.gif" alt="360 Degree Animation"
+           style="max-width:380px;display:block;margin:24px auto;border-radius:9px;">
+      <div style="text-align:center;font-size:1.02em; color:#586480;">
+        See the complete chair from every angle after assembly.
+      </div>
+    </div>
+
+        <!-- FOOTER -->
+    <div class="footer">
+      Presented by Aspirella Technodocs Private Limited. 
+      Company website: 
+      <a href="https://aspirella.in/" class="company-link">aspirella.in</a>
+    </div>
+
+  <script>
+    // sequence: Step1..Step6, then 360
+    const steps = [
+      ...document.querySelectorAll('#stepsContainer .manual-step'),
+      document.getElementById('product360')
+    ];
+
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let currentIndex = 0;
+
+    function showSection(index) {
+      steps.forEach((el, i) => {
+        if (i === index) {
+          el.style.display = el.id === 'product360' ? 'block' : 'flex';
+        } else {
+          el.style.display = 'none';
+        }
+      });
+
+      prevBtn.disabled = index === 0;
+      nextBtn.disabled = index === steps.length - 1;
+    }
+
+    function changeSection(direction) {
+      currentIndex += direction;
+      if (currentIndex < 0) currentIndex = 0;
+      if (currentIndex >= steps.length) currentIndex = steps.length - 1;
+      showSection(currentIndex);
+    }
+
+    // initial: show Step 1 only (safety is always visible)
+    showSection(currentIndex);
+  </script>
+</body>
+</html>
